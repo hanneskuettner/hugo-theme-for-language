@@ -1,0 +1,13 @@
+baseURL = "http://example.org/"
+title = "My New Hugo Site"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+#theme = ["theme-common"]
+
+[languages]
+    [languages.en]
+        languageCode = "en"
+        weight = 1
+        contentDir = "content/en"
+        theme = ["theme-common"]
